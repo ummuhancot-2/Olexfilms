@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Home",
+    "link": "/",
+    "icon": "pi pi-home"
+  },
+  {
+    "title": "About Us",
+    "link": "/aboutus",
+    "icon": "pi pi-book"
+  },
+  {
+    "title": "Products",
+    "link": "/products",
+    "icon": "pi pi-shopping-cart"
+  },
+  {
+    "title": "Technology",
+    "link": "/technology",
+    "icon": "pi pi-cog"
+  },
+  {
+    "title": "Certificates",
+    "link": "/certificates",
+    "icon": "pi pi-award"
+  },
+  {
+    "title": "Blog",
+    "link": "/blog",
+    "icon": "pi pi-pencil"
+},
+{
+   "title": "Contact",
+    "link": "/contact",
+    "icon": "pi pi-phone"
+}
+    
+]

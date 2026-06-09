@@ -1,0 +1,122 @@
+
+@use "../../../styles/index.scss" as *;
+
+.main-menu-video-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.main-menu-bar {
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(180deg, $color4 0%, $color5 100%) !important;
+  border: none;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.main-menu-bar .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.main-menu-bar .navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+}
+
+.main-menu-bar .navbar-toggler {
+  position: absolute;
+  right: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: transparent;
+}
+
+.main-menu-bar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,0.95)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.main-menu-bar .nav-link {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+}
+
+.main-menu-bar .nav-link:hover,
+.main-menu-bar .nav-link.active {
+  color: #ffffff;
+}
+
+.main-menu-bar .offcanvas {
+  background: $color5;
+}
+
+.main-menu-bar .offcanvas-body {
+  background: $color5;
+}
+
+.main-menu-bar .offcanvas .nav-link {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.main-menu-bar .offcanvas .nav-link:hover,
+.main-menu-bar .offcanvas .nav-link.active {
+  color: #ffffff;
+}
+
+.main-menu-bar .offcanvas .btn-close {
+  filter: invert(1);
+}
+
+/* Hide offcanvas close (X) on large screens where offcanvas acts as desktop menu */
+@media (min-width: 992px) {
+  .main-menu-bar .offcanvas .btn-close {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-menu-bar .navbar-toggler {
+    display: none;
+  }
+
+  /* Desktop: show offcanvas content inline and center / spread nav links */
+  .main-menu-bar .offcanvas {
+    position: static;
+    transform: none;
+    width: auto;
+    background: transparent;
+    box-shadow: none;
+    visibility: visible !important;
+  }
+
+  .main-menu-bar .offcanvas-body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  /* Spread nav items left/right with centered logo */
+  .main-menu-bar .offcanvas .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .main-menu-bar .offcanvas .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Ensure logo sits above links */
+  .main-menu-bar .navbar-brand {
+    z-index: 5;
+  }
+}
