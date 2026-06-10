@@ -2,7 +2,7 @@ export const config = { //projede sonradan değiştirme ihtimalinin olduğu yerl
 
 //appConfig olarak değiştirebiliriz burayı eğer hata alırsam nextjs ile ilgili bi uyarı değil esnit le alakalı 
   project: {
-    name: "Olex Films",
+    name: "Olex",
     slogan: "Mükemmel koruma, kusursuz görünüm.",
     description:
       "Olex Films olarak her aracın en yüksek seviyede koruma ve bakımı hak ettiğine inanıyoruz. Bu nedenle yenilik, hassasiyet ve mükemmelliği bir araya getirerek müşterilerimizin araçlarının güzelliğini, değerini ve performansını yıllar boyunca korumalarına yardımcı oluyoruz.",
@@ -47,6 +47,10 @@ export const config = { //projede sonradan değiştirme ihtimalinin olduğu yerl
       instagram: {
         url: "https://instagram.com",
         icon: "pi pi-instagram",
+      },
+      whatsapp: {
+        url: "https://wa.me/13128132564",
+        icon: "pi pi-whatsapp",
       },
       linkedin: {
         url: "https://linkedin.com",

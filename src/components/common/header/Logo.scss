@@ -1,0 +1,44 @@
+@import "./../../../styles/index.scss";
+
+.logo-brand {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 12px 16px;
+  background-color: transparent;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.logo-brand img {
+  display: block;
+  width: auto;
+  max-width: 180px;
+  height: auto;
+  opacity: 0.9;
+}
+
+.logo-brand--light img {
+  filter: brightness(1.05);
+  opacity: 0.85;
+}
+
+.logo-brand--dark img {
+  filter: none;
+  opacity: 0.95;
+}
+
+.logo-brand:hover img {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .logo-brand {
+    padding: 10px 12px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .logo-brand img {
+    max-width: 150px;
+  }
+}

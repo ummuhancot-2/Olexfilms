@@ -1,9 +1,10 @@
 import { lexend, nunito, mooLahLah, barriecito } from "@/helpers/font";
-import "./../styles/index.scss";
+import "../styles/index.scss";
 import { config } from "@/helpers/config";
 import { Topbar } from "@/components/common/header/Topbar";
 import { MainMenuBar } from "@/components/common/header/MainMenuBar";
 import { Footer } from "@/components/common/footer/Footer";
+import { ButtonCallNow } from "@/components/common/footer/ButtonCallNow";
 
 export const metadata = {
   title: {
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
       <body>
         <Topbar />
         <MainMenuBar />
-        {children}
+       {children}
         <Footer />
       </body>
     </html>

@@ -4,17 +4,17 @@ import { config } from "@/helpers/config";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "react-bootstrap/Navbar";
-import "./Logo.scss";
 
-export const Logo = () => {
+export const Olex = () => {
   return (
     <Navbar.Brand href="/" as={Link}>
       <Image
-        src="/logo/logo.png"
+        src="/logo/olex.png"
         width={168}
-        height={168}
+        height={88}
         alt={config.project.name}
-        priority
+      
+
       />
     </Navbar.Brand>
   );

@@ -4,15 +4,17 @@ import { config } from "@/helpers/config";
 import { MainMenu } from "../header/MainMenu";
 import { SocialMenu } from "./SocialMenu";
 import { ContactMenu } from "./ContactMenu";
+import { ButtonCallNow } from "./ButtonCallNow";
 import "./footer.scss";
+import { Olex } from "./Olex";
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className="footer bg-body-secondary">
       <Container>
         <Row >
           <Col xs={12}>
-            <Logo theme="light" />
+            <Olex />
             <p className="mt-3">{config.project.description}</p>
           </Col>
 
@@ -29,6 +31,7 @@ export const Footer = () => {
           <Col xl={4}>
             <h3>Contact</h3>
             <ContactMenu />
+            <ButtonCallNow className="mt-3" />
           </Col>
         </Row>
       </Container>

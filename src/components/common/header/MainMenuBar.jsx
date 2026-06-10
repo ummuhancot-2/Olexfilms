@@ -7,12 +7,12 @@ import { Logo } from "./Logo";
 import Image from "next/image";
 import { config } from "@/helpers/config";
 import { MainMenu } from "./MainMenu";
-import { ButtonCallNow } from "./ButtonCallNow";
+import { ButtonCallNow } from "../footer/ButtonCallNow";
 import "./MainMenuBar.scss";
 
 export const MainMenuBar = () => {
   return (
-    <div className="main-menu-video-header">
+    <div className="minato">
       {/* <div className="video-background">
         <video
           autoPlay
@@ -34,9 +34,9 @@ export const MainMenuBar = () => {
         className="bg-body-tertiary main-menu-bar"
         collapseOnSelect
       >
-        <Container>
+        <Container >
           <Logo />
-          <Navbar.Toggle />
+          <Navbar.Toggle className="color-ligth"/>
           <Navbar.Offcanvas
             id="main-menu"
             aria-labelledby="main-menu"
@@ -45,9 +45,9 @@ export const MainMenuBar = () => {
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="main-menu-title">
                 <Image
-                  src="/img/logos/logo-one-line.png"
-                  width={253}
-                  height={29}
+                  src="/logo/olex.png"
+                  width={83}
+                  height={90}
                   alt={config.project.name}
                 />
               </Offcanvas.Title>
