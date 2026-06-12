@@ -34,7 +34,7 @@ export const MainMenuBar = () => {
         className="bg-body-tertiary main-menu-bar"
         collapseOnSelect
       >
-        <Container >
+        <Container className="main-menu-bar__container">
           <Logo />
           <Navbar.Toggle className="color-ligth"/>
           <Navbar.Offcanvas
@@ -42,19 +42,19 @@ export const MainMenuBar = () => {
             aria-labelledby="main-menu"
             placement="end"
           >
-            <Offcanvas.Header closeButton>
+            <Offcanvas.Header closeButton className="main-menu-bar__offcanvas-header">
               <Offcanvas.Title id="main-menu-title">
                 <Image
                   src="/logo/olex.png"
-                  width={83}
+                  link="/"
+                  width={178}
                   height={90}
                   alt={config.project.name}
                 />
               </Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body>
+            <Offcanvas.Body className="main-menu-bar__offcanvas-body">
               <MainMenu className="justify-content-center flex-grow-1" />
-              <ButtonCallNow />
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>

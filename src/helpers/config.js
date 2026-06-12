@@ -3,7 +3,7 @@ export const config = { //projede sonradan değiştirme ihtimalinin olduğu yerl
 //appConfig olarak değiştirebiliriz burayı eğer hata alırsam nextjs ile ilgili bi uyarı değil esnit le alakalı 
   project: {
     name: "Olex",
-    slogan: "Mükemmel koruma, kusursuz görünüm.",
+    slogan: "Kahramanmaraş olex Films şubesi Mükemmel koruma, kusursuz görünüm.",
     description:
       "Olex Films olarak her aracın en yüksek seviyede koruma ve bakımı hak ettiğine inanıyoruz. Bu nedenle yenilik, hassasiyet ve mükemmelliği bir araya getirerek müşterilerimizin araçlarının güzelliğini, değerini ve performansını yıllar boyunca korumalarına yardımcı oluyoruz.",
   },
@@ -25,15 +25,15 @@ export const config = { //projede sonradan değiştirme ihtimalinin olduğu yerl
         link: "mailto:info@olexfilms.com",
       },
       address: {
-        value: "1325 W Webster Ave, Chicago, IL 60614, USA",
-        icon: "pi pi-address-book",
-        link: "https://maps.app.goo.gl/kt8rZDCESpodJ66Q7",
+        value: "Yavuz Selim, Mehmet Nuri Arıkan Cd. Küçük sanayi sitesi no: 68/A, 46080 Dulkadiroğlu/Kahramanmaraş",
+        icon: "pi pi-map-marker",
+        link: "https://www.google.com/maps/search/Yavuz+Selim,+Mehmet+Nuri+Ar%C4%B1kan+Cd.+K%C3%BC%C3%A7%C3%BCk+sanayi+sitesi+no:+68/A,+46080+Dulkadiro%C4%9Flu/Kahramanmara%C5%9F",
       },
     },
     website: "https://olexfilms.com",
     map: {
       embed:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d428.73226813356894!2d-87.66233122998248!3d41.921503806323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e3c2861885%3A0xbb24fc26bc6a201d!2s1325%20W%20Webster%20Ave%2C%20Chicago%2C%20IL%2060614%2C%20USA!5e0!3m2!1sen!2sbe!4v1729095805299!5m2!1sen!2sbe",
+        "https://www.google.com/maps/search/Olex+Films+Kahramanmaras",
     },
     socialMedia: {
       twitter: {
@@ -49,7 +49,7 @@ export const config = { //projede sonradan değiştirme ihtimalinin olduğu yerl
         icon: "pi pi-instagram",
       },
       whatsapp: {
-        url: "https://wa.me/13128132564",
+        url: "https://wa.me/905399414680?text=Merhaba%2C%20Olex%20Films%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.",
         icon: "pi pi-whatsapp",
       },
       linkedin: {

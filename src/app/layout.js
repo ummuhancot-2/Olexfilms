@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
         <MainMenuBar />
        {children}
         <Footer />
+        <ButtonCallNow className="button-actions-fixed" />
       </body>
     </html>
   );

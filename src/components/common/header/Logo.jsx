@@ -11,7 +11,7 @@ export const Logo = () => {
     <Navbar.Brand href="/" as={Link}>
       <Image
         src="/logo/logo.png"
-        width={168}
+        width={178}
         height={168}
         alt={config.project.name}
         priority

@@ -16,6 +16,28 @@
   }
 }
 
+.button-actions-fixed {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 9999;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 1.5rem;
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 576px) {
+  .button-actions-fixed {
+    right: 0.75rem;
+    bottom: 0.75rem;
+    padding: 0.4rem;
+  }
+}
+
 .btn-call-now {
   min-width: 3.5rem;
   width: 3.5rem;
@@ -41,34 +63,59 @@
   color: #ffffff;
 }
 
-.btn-instagram {
-  background-color: #e1306c;
-  border-color: rgba(225, 48, 108, 0.5);
+.btn-call-now:hover i,
+.btn-call-now:focus i {
+  color: #ffffff;
 }
 
-.btn-instagram:hover,
-.btn-instagram:focus {
-  background-color: #c72b60;
+.btn-call-now.btn-instagram {
+  background-color: #d44a88;
+  border-color: rgba(212, 74, 136, 0.5);
 }
 
-.btn-whatsapp {
-  background-color: #25d366;
-  border-color: rgba(37, 211, 102, 0.5);
+.btn-call-now.btn-instagram:hover,
+.btn-call-now.btn-instagram:focus {
+  background-color: #c0387a;
 }
 
-.btn-whatsapp:hover,
-.btn-whatsapp:focus {
-  background-color: #1db954;
+.btn-call-now.btn-whatsapp {
+  background-color: #34c26f;
+  border-color: rgba(52, 194, 111, 0.5);
 }
 
-.btn-phone {
-  background-color: #007bff;
-  border-color: rgba(0, 123, 255, 0.5);
+.btn-call-now.btn-whatsapp:hover,
+.btn-call-now.btn-whatsapp:focus {
+  background-color: #2aa15b;
 }
 
-.btn-phone:hover,
-.btn-phone:focus {
-  background-color: #0069d9;
+.btn-call-now.btn-phone {
+  background-color: #4f7bcb;
+  border-color: rgba(79, 123, 203, 0.5);
+}
+
+.btn-call-now.btn-phone:hover,
+.btn-call-now.btn-phone:focus {
+  background-color: #426bbc;
+}
+
+.btn-call-now.btn-location {
+  background-color: #6c757d;
+  border-color: rgba(108, 117, 125, 0.5);
+}
+
+.btn-call-now.btn-location:hover,
+.btn-call-now.btn-location:focus {
+  background-color: #5a6268;
+}
+
+.btn-call-now.btn-website {
+  background-color: #6f42c1;
+  border-color: rgba(111, 66, 193, 0.5);
+}
+
+.btn-call-now.btn-website:hover,
+.btn-call-now.btn-website:focus {
+  background-color: #5e36ad;
 }
 
 .btn-call-now i {

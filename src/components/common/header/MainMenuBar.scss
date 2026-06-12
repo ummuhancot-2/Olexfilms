@@ -1,7 +1,7 @@
 
 @use "../../../styles/index.scss" as *;
 
-.mein-menu {
+.main-menu {
   .main-menu-bar {
     .navbar-brand,
     #main-menu-title {
@@ -25,3 +25,16 @@
   }
 }
 
+.main-menu-bar__container {
+  background-color: #061a0e;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.main-menu-bar__offcanvas-header {
+  background-color: #061a0e;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.main-menu-bar__offcanvas-body {
+  background-color: #061a0e;
+}
