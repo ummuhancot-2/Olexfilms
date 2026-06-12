@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 export const Olex = () => {
   return (
-    <Navbar.Brand href="/" as={Link}>
+    <Navbar.Brand href="/Anasayfa" as={Link}>
       <Image
         src="/logo/olex.png"
         width={168}

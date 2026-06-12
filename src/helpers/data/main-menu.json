@@ -1,38 +1,22 @@
 [
   {
-    "title": "Home",
+    "title": "Anasayfa",
     "link": "/",
     "icon": "pi pi-home"
   },
   {
-    "title": "About Us",
-    "link": "/aboutus",
+    "title": "Hakkımızda",
+    "link": "/Hakkimizda",
     "icon": "pi pi-book"
   },
   {
-    "title": "Products",
-    "link": "/products",
-    "icon": "pi pi-shopping-cart"
+    "title": "Hizmetlerimiz",
+    "link": "/Hizmetlerimiz",
+    "icon": "pi pi-briefcase"
   },
   {
-    "title": "Technology",
-    "link": "/technology",
-    "icon": "pi pi-cog"
-  },
-  {
-    "title": "Certificates",
-    "link": "/certificates",
-    "icon": "pi pi-award"
-  },
-  {
-    "title": "Blog",
-    "link": "/blog",
-    "icon": "pi pi-pencil"
-},
-{
-   "title": "Contact",
-    "link": "/contact",
-    "icon": "pi pi-phone"
-}
-    
+    "title": "Ürünler",
+    "link": "/Ürünler",
+    "icon": "pi pi-box"
+  }
 ]

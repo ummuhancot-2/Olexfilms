@@ -5,6 +5,7 @@ import { Topbar } from "@/components/common/header/Topbar";
 import { MainMenuBar } from "@/components/common/header/MainMenuBar";
 import { Footer } from "@/components/common/footer/Footer";
 import { ButtonCallNow } from "@/components/common/footer/ButtonCallNow";
+import { Spacer } from "@/components/spacer/Spacer";
 
 export const metadata = {
   title: {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <body>
         <Topbar />
         <MainMenuBar />
+        <Spacer size={20} />
        {children}
         <Footer />
         <ButtonCallNow className="button-actions-fixed" />

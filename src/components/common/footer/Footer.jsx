@@ -9,7 +9,7 @@ import { Olex } from "./Olex";
 
 export const Footer = () => {
   return (
-    <footer className="footer bg-body-secondary">
+    <footer className="footer bg-body-secondary ">
       <Container>
         <Row >
           <Col xs={12}>

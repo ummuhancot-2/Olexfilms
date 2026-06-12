@@ -12,7 +12,7 @@ import "./MainMenuBar.scss";
 
 export const MainMenuBar = () => {
   return (
-    <div className="minato">
+    <div>
       {/* <div className="video-background">
         <video
           autoPlay
@@ -29,6 +29,7 @@ export const MainMenuBar = () => {
       </div> */}
 
       <Navbar
+        
         expand="lg"
         sticky="top"
         className="bg-body-tertiary main-menu-bar"
