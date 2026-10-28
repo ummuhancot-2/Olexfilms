@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "image": "/car/car2.jpg",
+    "alt": "Olex Logo",
+     "title":"carrrrrr"
+  },
+  {
+    "id": 2,
+    "image": "/car/car3.jpg",
+    "alt": "Main Logo",
+    "title":"carrrrrr"
+  }
+]

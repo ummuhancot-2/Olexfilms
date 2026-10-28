@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "/car/car2.jpg",
+    "title": "Olex One"
+  },
+  {
+    "id": 2,
+    "image": "/car/car3.jpg",
+    "title": "Olex Two"
+  },
+  {
+    "id": 3,
+    "image": "/car/car4.jpg",
+    "title": "Olex Three"
+  },
+  {
+    "id": 4,
+    "image": "/car/car5.jpg",
+    "title": "Olex Four"
+  },
+  {
+    "id": 5,
+    "image": "/car/car6.png",
+    "title": "Olex Five"
+  },
+  {
+    "id": 6,
+    "image":"/car/car7.jpg",
+    "title": "Olex Six"
+  }
+]

@@ -18,5 +18,11 @@
     "title": "Ürünler",
     "link": "/Ürünler",
     "icon": "pi pi-box"
+  },
+   {
+    "title": "Login",
+    "link": "/login",
+    "icon": "pi pi-users"
   }
+
 ]

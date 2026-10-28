@@ -52,12 +52,12 @@ body {
 
   // Mobil ekranlar (768px ve altı)
   @media (max-width: 768px) {
-    background-image: url("@/../../../public/logo/logo.png");
+    background-image: url("@/../../../public/car/car.jpg");
   }
 
   // Bilgisayar ekranları (769px ve üzeri)
   @media (min-width: 769px) {
-    background-image: url("@/../../../public/logo/logo.png");
+    background-image: url("@/../../../public/car/car.jpg");
   }
 }
 

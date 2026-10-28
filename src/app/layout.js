@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <body>
         <Topbar />
         <MainMenuBar />
-        <Spacer size={20} />
+        <Spacer />
        {children}
         <Footer />
         <ButtonCallNow className="button-actions-fixed" />

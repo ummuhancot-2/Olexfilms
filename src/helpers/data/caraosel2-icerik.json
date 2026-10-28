@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "image": "/car/car3.jpg",
+    "alt": "Olex Image",
+        "title":"carrrr carrr carrrr"
+
+  },
+  {
+    "id": 2,
+    "image": "/car/car4.jpg",
+    "alt": "Logo Image",
+        "title":"carrrr carrr carrrr"
+
+  }
+]

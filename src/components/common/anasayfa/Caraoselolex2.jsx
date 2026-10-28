@@ -8,28 +8,27 @@ import "swiper/css/pagination";
 
 import "./Caraoselolex.scss";
 
-export default function Caraoselolex() {
+import data from "@/helpers/data/caraosel2-icerik.json";
+
+export default function Caraoselolex2() {
   return (
     <div className="carousel-olex">
       <Swiper
         modules={[Pagination, Autoplay]}
         slidesPerView={1}
-        loop
+        loop={true}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
+        pagination={{ clickable: true }}
       >
-        <SwiperSlide>
-          <img src="/logo/olex.png" alt="Olex" />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <img src="/logo/logo.png" alt="Logo" />
-        </SwiperSlide>
+        {data.map((item) => (
+      <SwiperSlide key={item.id}>
+            <p className="title">{item.title}</p>
+            <img src={item.image} alt={item.alt} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

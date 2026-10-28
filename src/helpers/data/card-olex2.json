@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "/car/car.jpg",
+    "title": "Cover One"
+  },
+  {
+    "id": 2,
+  "image": "/car/car1.jpg",
+    "title": "Cover Two"
+  },
+  {
+    "id": 3,
+  "image": "/car/car2.jpg",
+    "title": "Cover Three"
+  },
+  {
+    "id": 4,
+  "image": "/car/car3.jpg",
+    "title": "Cover Four"
+  },
+  {
+    "id": 5,
+  "image": "/car/car4.jpg",
+    "title": "Cover Five"
+  },
+  {
+    "id": 6,
+  "image": "/car/car5.jpg",
+    "title": "Cover Six"
+  },
+  {
+    "id": 7,
+  "image": "/car/car6.png",
+    "title": "Cover Seven"
+  },
+  {
+    "id": 8,
+  "image": "/car/car7.jpg",
+    "title": "Cover Eight"
+  },
+  {
+    "id": 9,
+  "image": "/car/car.jpg",
+    "title": "Cover Nine"
+  }
+]
